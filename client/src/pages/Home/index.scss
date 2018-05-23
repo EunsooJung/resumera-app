@@ -1,0 +1,20 @@
+.Home__content {
+  margin-top: 2rem;
+}
+
+.Home__label {
+  color: #999 !important;
+}
+
+.Home__Input {
+  opacity: 1;
+}
+
+.Home__Input:disabled {
+  font-weight: bold;
+  border: 0;
+  color: #000;
+  padding-left: 0;
+  background-color: #fff;
+  cursor: text;
+}
