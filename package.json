@@ -7,10 +7,11 @@
     "node": "10.0.0",
     "npm": "6.0.1"
   },
-  "start": "concurrently \"npm run server\" \"npm run client\"",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
     "server": "node index.js",
     "client": "cd client && npm install && npm run build && npm run start",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
   },
   "author": "",
   "license": "ISC",
